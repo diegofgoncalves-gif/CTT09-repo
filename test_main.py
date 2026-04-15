@@ -15,4 +15,4 @@ def test_somar():
 
 def test_multiplicar():
     response = client.get("/multiplicar/2/2")
-    assert response.json() == {"resultado": 5}  # Erro! 2x2 não é 5
+    assert response.json() == {"resultado": 4}  # Erro! 2x2 não é 5
